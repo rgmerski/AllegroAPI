@@ -1,0 +1,4 @@
+Cześć! W tym repozytorium znajduje się kod źródłowy do pierwszego zadania. Niestety, nie byłem w stanie go przetestować, gdyż nie jestem zweryfikowanym użytkownikiem Allegro (nie posiadam tokenu do autentykacji). W pliku appsettings.json należy uzupełnić pole AccessToken. Chciałem spróbować też to zrobić przy pomocy AllegroSandbox, ale również wymaga to autentykacji.
+
+Program ten otwiera połączenie z API allegro, po czym pobiera on wpisy billingowe i zapisuje je w bazie danych w zaproponowanej przeze mnie strukturze. Co do stałych kosztów - nie wiedziałem, która metoda GET obsługuje ten scenariusz, więc nie mogłem dopasować reszty projektu do tego - ale starałem się zrobić jak najszerszy szkielet. Po uzyskaniu tokenu oraz 
+wybraniu odpowiedniej metody wystarczy dodać obsługę wybierania zamówienia i wczytania odpowiedniego obiektu OfferCost. Samo zapisanie do bazy jest już przygotowane. 
