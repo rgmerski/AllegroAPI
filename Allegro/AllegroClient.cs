@@ -33,7 +33,6 @@ namespace AllegroAPI.Allegro
                 $"https://api.allegro.pl/billing/billing-entries?marketplaceId={marketplaceId}";
 
             // Ustawienie nagłówków autoryzacji
-
             // Brak możliwości przetestowania - nie mam tokenu, nie wiem czy to nie wychodzi poza zakres zadania
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _accessToken);
             _httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/vnd.allegro.public.v1+json"));
