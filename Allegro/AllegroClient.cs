@@ -24,7 +24,7 @@ namespace AllegroAPI.Allegro
             _useSandbox = useSandbox;
         }
 
-        // Metoda do pobierania wpisów billingowych dla zamówienia
+        // Metoda do pobierania wpisów billingowych
         public async Task<List<BillingEntry>> GetBillingEntriesAsync(string marketplaceId = "allegro-pl")
         {
             // Ustawienie adresu bazowego w zależności od środowiska (sandbox lub produkcyjne)
